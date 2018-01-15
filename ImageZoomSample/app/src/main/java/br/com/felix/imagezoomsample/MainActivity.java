@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageZoom imageZoom = findViewById(R.id.img1);
+        img1 = findViewById(R.id.img1);
 
         Button btnSelect = findViewById(R.id.btnSelect);
         btnSelect.setOnClickListener(new View.OnClickListener() {
